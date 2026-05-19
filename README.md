@@ -33,7 +33,7 @@
 ## 1. Клонирование репозитория
 
 ```bash
-git clone https://github.com/USERNAME/weather-console-app.git
+git clone https://github.com/polinarazorpolina-ali/weather-console-app.git
 ```
 
 Перейдите в папку проекта:
