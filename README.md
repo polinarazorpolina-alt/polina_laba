@@ -33,13 +33,9 @@
 ## 1. Клонирование репозитория
 
 ```bash
-git clone https://github.com/polinarazorpolina-alt/weather-console-app.git
-```
+git clone https://github.com/polinarazorpolina-alt/polina_laba.git
 
-Перейдите в папку проекта:
-
-```bash
-cd weather-console-app
+cd polina_laba
 ```
 
 ---
@@ -59,7 +55,7 @@ pip install requests
 Запустите файл:
 
 ```bash
-python weather_app.py
+python polina_laba.py
 ```
 
 ---
@@ -83,25 +79,6 @@ python weather_app.py
 ===================================
 ```
 
----
-
-# 📂 Структура проекта
-
-```text
-weather-console-app/
-│
-├── weather_app.py
-└── README.md
-```
-
----
-
-# 🔧 Описание функций
-
-## `get_coordinates(city_name)`
-
-Получает координаты города через Geocoding API Open-Meteo.
-
 ### Параметры:
 
 - `city_name` — название города.
@@ -116,40 +93,6 @@ weather-console-app/
     "country": country_name
 }
 ```
-
----
-
-## `get_weather(lat, lon)`
-
-Получает текущую погоду по координатам.
-
-### Параметры:
-
-- `lat` — широта;
-- `lon` — долгота.
-
-### Возвращает:
-
-```python
-{
-    "temperature": value,
-    "windspeed": value,
-    "winddirection": value
-}
-```
-
----
-
-## `main()`
-
-Основная функция программы.
-
-### Выполняет:
-
-1. Ввод города;
-2. Поиск координат;
-3. Получение погоды;
-4. Вывод информации в консоль.
 
 ---
 
@@ -172,33 +115,3 @@ https://geocoding-api.open-meteo.com/v1/search
 ```text
 https://api.open-meteo.com/v1/forecast
 ```
-
----
-
-# ❗ Обработка ошибок
-
-В программе реализована обработка:
-
-- пустого ввода;
-- ошибок подключения;
-- недоступности API;
-- отсутствия города в базе.
-
----
-
-# 🚀 Возможные улучшения
-
-Можно добавить:
-
-- прогноз на несколько дней;
-- влажность и давление;
-- поддержку нескольких языков;
-- графический интерфейс;
-- цветной вывод;
-- сохранение истории запросов.
-
----
-
-# 📄 Лицензия
-
-Проект создан в учебных целях и распространяется свободно.
