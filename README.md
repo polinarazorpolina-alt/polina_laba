@@ -92,26 +92,3 @@ python polina_laba.py
     "name": city_name,
     "country": country_name
 }
-```
-
----
-
-# 🌐 API
-
-## Geocoding API
-
-Используется для поиска координат города.
-
-```text
-https://geocoding-api.open-meteo.com/v1/search
-```
-
----
-
-## Forecast API
-
-Используется для получения текущей погоды.
-
-```text
-https://api.open-meteo.com/v1/forecast
-```
